@@ -1,0 +1,4 @@
+[2022-04-25 09:55:17] [1] [INFO] TEST [ultimateqa - openHomeTest] STARTED at [18:55:17 2022-04-25]
+[2022-04-25 09:55:28] [30] [INFO] INFO: opening url 'https://ultimateqa.com/automation/'
+[2022-04-25 09:55:29] [30] [INFO] URL 'https://ultimateqa.com/automation/' opened
+[2022-04-25 09:55:33] [1] [INFO] TEST [ultimateqa - openHomeTest] PASSED at [18:55:33 2022-04-25]

@@ -1,0 +1,11 @@
+reporting:
+  enabled: true
+  project-key: DEF
+  server:
+    hostname: https://solvdautomationtec.zebrunner.com
+    access-token:  tufyD8rCGDqAOGYGjp3H6lAdwUgkiPvej4CX8lIwV603T72Vxk
+  run:
+    display-name: Nightly Regression Suite
+    build: 1.12.1.96-SNAPSHOT
+    environment: DEV
+

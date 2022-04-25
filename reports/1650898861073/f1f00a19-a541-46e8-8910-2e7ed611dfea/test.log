@@ -1,0 +1,23 @@
+[2022-04-25 03:01:05] [22] [INFO] TEST [TC001 - testModelSpecs] STARTED at [12:01:05 2022-04-25]
+[2022-04-25 03:01:14] [31] [INFO] INFO: opening url 'https://ultimateqa.com/automation/'
+[2022-04-25 03:01:15] [31] [INFO] URL 'https://ultimateqa.com/automation/' opened
+[2022-04-25 03:01:39] [22] [WARN] Loaded page url is as expected but page loading marker element is not visible: By.className: news-column-index
+[2022-04-25 03:01:43] [22] [ERROR] TEST [TC001 - testModelSpecs] FAILED at [12:01:43 2022-04-25] - Home page is not opened expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:99)
+org.testng.Assert.failNotEquals(Assert.java:1037)
+org.testng.Assert.assertTrue(Assert.java:45)
+com.example.carina.demo.TC001.testModelSpecs(TC001.java:37)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:577)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+java.base/java.lang.Thread.run(Thread.java:833)
